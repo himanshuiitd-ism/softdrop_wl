@@ -238,7 +238,7 @@ export default function WaitlistClient({ founder }: WaitlistClientProps) {
   ];
 
   const buyerTrust = [
-    "Seller's verified MRR pulled from Razorpay",
+    "Seller's verified MRR pulled from payment gateways",
     "Total sales count on each listing",
     "Seller star rating and public reviews",
     "Free modification rounds offered",
