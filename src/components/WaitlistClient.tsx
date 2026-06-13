@@ -183,7 +183,7 @@ export default function WaitlistClient({ founder }: WaitlistClientProps) {
   ];
 
   const developerGet = [
-    "Razorpay-verified seller badge",
+    "Platform-verified seller/buyer badge",
     "MRR/ARR dashboard connected to payment gateway",
     "Real-time buyer chat built in",
     "Escrow protection on every deal",
