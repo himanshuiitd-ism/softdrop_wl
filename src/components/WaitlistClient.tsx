@@ -170,7 +170,7 @@ export default function WaitlistClient({ founder }: WaitlistClientProps) {
   const [activePersona, setActivePersona] = useState<'developer' | 'influencer' | 'buyer'>('developer');
 
   const developerSell = [
-    "Website templates (Next.js, React, Vue, Laravel)",
+    "Website templates ",
     "Mobile app templates (Flutter, React Native)",
     "Chrome & browser extensions",
     "SaaS boilerplates & starter kits",
