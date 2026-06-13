@@ -171,7 +171,7 @@ export default function WaitlistClient({ founder }: WaitlistClientProps) {
 
   const developerSell = [
     "Website templates ",
-    "Mobile app templates (Flutter, React Native)",
+    "Mobile app templates ",
     "Chrome & browser extensions",
     "SaaS boilerplates & starter kits",
     "Python/Node scripts & automation tools",
