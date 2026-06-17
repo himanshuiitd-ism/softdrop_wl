@@ -611,15 +611,47 @@ export default function WaitlistClient({ founder }: WaitlistClientProps) {
                   {isSubmitting ? (
                     <>
                       <Loader2 size={16} className="animate-spin" />
-                      Adding to waitlist...
+                      Contacting the team...
                     </>
                   ) : (
                     <>
-                      🚀 Join the Waitlist
+                      🚀 contact the team
                       <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
                     </>
                   )}
                 </button>
+
+                {/* Profiles and Counter */}
+                <div className="flex items-center justify-center gap-3 mt-4 pt-2 border-t border-white/[0.04]">
+                  <div className="flex -space-x-2.5">
+                    <img 
+                      className="inline-block h-7 w-7 rounded-full ring-2 ring-[#0c0c0c] object-cover" 
+                      src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" 
+                      alt="User avatar" 
+                    />
+                    <img 
+                      className="inline-block h-7 w-7 rounded-full ring-2 ring-[#0c0c0c] object-cover" 
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80" 
+                      alt="User avatar" 
+                    />
+                    <img 
+                      className="inline-block h-7 w-7 rounded-full ring-2 ring-[#0c0c0c] object-cover" 
+                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80" 
+                      alt="User avatar" 
+                    />
+                    <img 
+                      className="inline-block h-7 w-7 rounded-full ring-2 ring-[#0c0c0c] object-cover" 
+                      src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80" 
+                      alt="User avatar" 
+                    />
+                    <img 
+                      className="inline-block h-7 w-7 rounded-full ring-2 ring-[#0c0c0c] object-cover" 
+                      src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80" 
+                      alt="User avatar" 
+                    />
+                  </div>
+                  <span className="text-xs text-gray-400 font-medium">64 more</span>
+                </div>
               </form>
             </motion.div>
           </div>
